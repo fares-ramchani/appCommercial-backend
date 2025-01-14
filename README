@@ -1,0 +1,34 @@
+// ----------------GET (tableau mta3 city donné mta3h mayet3awdouch + code postale m + activité....)----------------
+// METHOD : GET
+// URL : /management/logged-in-user/get-suppliers-by-projection
+
+
+// -------------------GET PDF FILE (fih donnée mta3 fournisseur)------------------------
+// METHOD : GET
+// URL : /management/logged-in-user/printing
+
+// hedhou el données eli yetba3thou fil body (el lazmnin houma : sortQuery, fromCode, toCode)
+// const { city, country, activity, payment, postalCode, type, nature, bank, isVATSubject, isBlockedAccount, agent, sortQuery, fromCode, toCode } = req.body
+// example : 
+// {
+//     "postalCode": "67890",
+//     "agent": "Supplier Agent",
+//     "sortQuery": {
+//         "city": 1, tartib mohem hne idha t7out city loula fil object yebda trie biha...
+//         "code": 1
+//     },
+//     "fromCode": 1,
+//     "toCode": 3
+// }
+
+
+// -------------------UPDATE fournisseur------------------------
+// METHOD  : PUT 
+// URL   : /management/logged-in-user/update-supplier/:code
+// PARAMS : /management/logged-in-user/update-supplier/1
+// BODY : 
+// example
+// {
+//     "postalCode": "123"
+// }
+
